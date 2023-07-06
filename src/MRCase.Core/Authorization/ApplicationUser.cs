@@ -11,5 +11,6 @@ namespace MRCase.Core.Authorization
     public class ApplicationUser : IdentityUser
     {
         public ICollection<Datum> Data { get; set; }
+        //commit test
     }
 }
